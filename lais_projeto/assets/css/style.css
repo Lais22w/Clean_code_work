@@ -12,60 +12,39 @@ body {
     background-attachment: fixed;
 }
 
-header{
-    text-align: center;
-}
-
 header>h1 {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: rgba(255, 0, 0, 0.909);
+    color: red;
     text-shadow: 2px 2px 0px rgb(251, 255, 252);
     width: 90vw;
     margin-left: 7px;
 }
 
-menu{
-    color: rgb(54, 4, 164);
-    width: 90vw;
-    text-align: center;
-    padding: 5px;
-}
-
-menu>ul{
-    list-style: none; 
-}
-
-menu>ul>li>a{
-    display: block;
-    color: rgb(225, 222, 234);
-    text-decoration: none;
-    background-color: rgb(12, 1, 21);
-    padding: 5px;
-    margin: auto;
-    border-radius: 0px;
-}
-
-menu>ul>li>a:hover{
-    background-color: rgb(85, 13, 180);
-    border-radius: 5px;
-} 
-
 article {
     width: 90vw;
+    margin-left: 7px;
     color: #bef202;
 }
 
 p {
     font-size: 20px;
-    padding: 1px;
-    margin: 10px; /* Espaçamento superior e inferior */
+    line-height: 1.2; /* Altura da linha */
+    margin: 10px 0; /* Espaçamento superior e inferior */
+}
+
+header>nav{
+     text-align: center;
+}
+
+nav a{
+    color: rgb(7, 243, 188);
+    font-size: larger;
 }
 
 img {
     border-radius: 5px;
-    margin: 10px;
     border: solid rgb(122, 9, 221);
 }
 
@@ -76,7 +55,4 @@ footer {
     font-weight: lighter;
     font-weight: bolder;
     color: rgb(65, 3, 109);
-    background-color: blueviolet;
-    padding: 5px;
-    margin: 8px;
 }

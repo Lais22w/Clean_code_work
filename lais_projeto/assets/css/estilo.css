@@ -17,82 +17,32 @@ header>h1 {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: rgb(38, 0, 255);
+    color: rgb(0, 255, 0);
     text-shadow: 2px 2px 0px rgb(251, 255, 252);
-    width: 90vw; 
-    padding: 7px;
-}
-
-menu{
-    color: rgb(13, 221, 152);
     width: 90vw;
-    list-style-type: none;
-    text-align: center;
-}
-
-menu>ul{
-    list-style-type: none;
-}
-
-menu>ul>li>a{
-    display: block;
-    padding: 7px;
-    text-decoration: none;
-    text-align: center;
-    background-color: rgba(13, 144, 65, 0.658);
-    border-radius: 0px 0px 0px 0px;
-    color: rgb(12, 10, 10);
-    margin: auto;
-}
-
-menu>ul>li>a:hover {
-    background-color: rgb(10, 65, 135);
-    color: whitesmoke;
-    text-decoration: none;
-} 
-
-main {
-    height: max-content;
-    width: 90vw;
-    text-align: justify;
-    padding: 7px 7px 10px 10px;
-    margin: auto;
-}
-
-article {
-    gap: 15px;
-    display:flex;
-    flex-direction: row; 
-    margin: auto;
-    align-items: flex-start;
-    padding: 9px;
+    margin-left: 7px;
 }
 
 p {
-    font-size: 25px;
+    font-size: 26px;
     line-height: 1.2; /* Altura da linha */
     margin: 10px 0; /* Espaçamento superior e inferior */
 }
 
 strong{
-    color:rgb(20, 9, 219);
+    color:rgb(80, 212, 36);
+}
+
+header> nav{
+     text-align: center;
+     font-size: larger;
+}
+
+nav a {
+    color: aqua;
 }
 
 img{
-    border: solid 5px rgb(120, 4, 228);
+    border: solid 3px black;
 }
 
-footer {
-    width: 90vw;
-    margin: auto;
-}
-
-footer>p {
-    background-color: rgb(63, 6, 107);
-    color: azure;
-    text-align: center;
-    border-radius: 0px 0px 7px 7px;
-    width: 90vw;
-    padding: 7px;
-    margin: auto;
-}
