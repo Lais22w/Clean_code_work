@@ -12,9 +12,9 @@ body {
     background-attachment: fixed;
 }
 
-header{
+/* header{
     text-align: center;
-}
+} */
 
 header>h1 {
     font-weight: bold;
@@ -23,7 +23,7 @@ header>h1 {
     color: rgba(255, 0, 0, 0.909);
     text-shadow: 2px 2px 0px rgb(251, 255, 252);
     width: 90vw;
-    margin-left: 7px;
+    margin:auto;
 }
 
 menu{
@@ -31,6 +31,7 @@ menu{
     width: 90vw;
     text-align: center;
     padding: 5px;
+    margin: 80px
 }
 
 menu>ul{
@@ -44,38 +45,56 @@ menu>ul>li>a{
     background-color: rgb(12, 1, 21);
     padding: 5px;
     margin: auto;
-    border-radius: 0px;
+    border-radius: 0px 0px 0px 0px;
+    text-align: center;
 }
 
 menu>ul>li>a:hover{
     background-color: rgb(85, 13, 180);
     border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
 } 
 
+main>p{
+    height: max-content;
+    width: 90vw;
+    text-align: justify;
+    padding: 7px 7px 10px 10px;
+    margin: auto;
+}
+ 
 article {
     width: 90vw;
     color: #bef202;
+    margin: auto;
 }
 
-p {
+p{
     font-size: 20px;
     padding: 1px;
-    margin: 10px; 
+    margin: auto; 
+    width: 90vw;
 }
 
 img {
     border-radius: 5px;
-    margin: 10px;
     border: solid rgb(122, 9, 221);
+    margin: 77px;
+    gap: 15px;
 }
 
-footer {
+footer{
+    width: 90vw;
+    margin: auto;
+}
+
+footer>p {
+    background-color: rgb(133, 3, 232);  
+    color: azure;
     text-align: center;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    color: rgb(65, 3, 109);
-    background-color: blueviolet;
-    padding: 5px;
-    margin: 8px;
+    border-radius: 0px 0px 7px 7px;
+    width: 90vw;
+    padding: 7px;
+    margin: auto;
 }

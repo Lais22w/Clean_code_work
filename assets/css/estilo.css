@@ -19,13 +19,14 @@ header>h1 {
     text-align: center;
     color: rgb(38, 0, 255);
     text-shadow: 2px 2px 0px rgb(251, 255, 252);
-    width: 90vw; 
-    padding: 7px;
+    width: 90vw;
+    margin:auto;
 }
 
-menu{
+menu {
     color: rgb(13, 221, 152);
     width: 90vw;
+    margin: 80px;
     list-style-type: none;
     text-align: center;
 }
@@ -36,7 +37,7 @@ menu>ul{
 
 menu>ul>li>a{
     display: block;
-    padding: 7px;
+    padding: 5px;
     text-decoration: none;
     text-align: center;
     background-color: rgba(13, 144, 65, 0.658);
@@ -70,15 +71,15 @@ article {
 
 p {
     font-size: 25px;
-    line-height: 1.2; /* Altura da linha */
-    margin: 10px 0; /* Espaçamento superior e inferior */
+    line-height: 1.2; 
+    margin: 10px 0;
 }
 
-strong{
+strong {
     color:rgb(20, 9, 219);
 }
 
-img{
+img {
     border: solid 5px rgb(120, 4, 228);
 }
 
