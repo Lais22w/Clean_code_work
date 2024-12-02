@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 *{
     margin: 0;
@@ -60,7 +60,7 @@ article {
 p {
     font-size: 20px;
     padding: 1px;
-    margin: 10px; /* Espaçamento superior e inferior */
+    margin: 10px; 
 }
 
 img {
@@ -73,7 +73,6 @@ footer {
     text-align: center;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: lighter;
     font-weight: bolder;
     color: rgb(65, 3, 109);
     background-color: blueviolet;
